@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.wrapper{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+//头部信息
+.header{
+  .page-container{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    position: relative;
+    //网站logo
+    .logo{
+      float: left;
+      margin: 0px 20px;
+      width:128px;
+      height: 60px;
+      .logo-img{
+        display: inline-block;
+        width:128px;
+        height: 60px;
+        background: url(../img/logo.png) no-repeat;
+        background-size: 100%;
+        margin-top: 6px;
+        margin-left: 30px;
+      }
+    }
+    //网站导航栏
+    .nav-item{
+      list-style: none;
+      float: left;
+      margin: 1% 4%;
+      position: relative;
+      li{
+        font-size: 20px;
+        color: #fff;
+        font-family:'微软雅黑';
+        float: left;
+        margin-right: 58px;
+        //设置导航条链接样式
+        a{
+          text-decoration: none;
+          color: #fff;
+        }
+        a:hover{
+          color:red;
+        }
+      }
+    }
+    .log-area{
+      float: right;
+      margin-right: 50px;
+      margin-top: 14px;
+      .login{
+        list-style: none;
+        li{
+          float: left;
+          font-size: 18px;
+          font-family:'微软雅黑';
+          margin-left: 20px;
+          a{
+            color: #ffffff;
+            text-decoration: none;
+          }
+          a:hover{
+            color:red;
+          }
+        }
+      }
+    }
+    //搜索条
+    .search-wrap{
+      float: right;
+      position: relative;
+      margin: 10px 13px;
+      input{
+        width: 200px;
+        height: 30px;
+        //background-color: rgba(245,245,245,1);
+        border-radius: 10px;
+        filter:alpha(opacity=40);
+        opacity:0.4;
+      }
+      .glyphicon-search{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        padding: 7px;
+        text-align: center;
+        filter:alpha(opacity=40);
+        opacity:0.4;
+        position: absolute;
+        right: 10px;
+        border-radius: 10px;
+      }
+    }
+  }
+
+}
