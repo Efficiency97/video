@@ -6,7 +6,7 @@
 body {
   width: 100%;
   height: 100%;
-  overflow: hidden; }
+  overflow-x: hidden; }
 
 .wrapper {
   margin: 0 auto;
@@ -113,14 +113,51 @@ body {
       cursor: pointer; }
   .main .path-banner {
     width: 1849px;
-    height: 500px;
+    height: 280px;
     overflow: hidden;
-    margin: 0 auto; }
+    position: relative;
+    margin: 0 auto;
+    background-color: #ffffff;
+    top: 160px; }
     .main .path-banner .banner-list {
-      list-style: none; }
+      width: 1000px;
+      height: 140px;
+      margin: 0 auto;
+      list-style: none;
+      box-sizing: border-box;
+      margin-top: 30px; }
       .main .path-banner .banner-list li {
-        float: left; }
+        float: left;
+        width: 140px;
+        height: 140px;
+        margin-right: 290px; }
         .main .path-banner .banner-list li img {
-          width: 30px; }
+          width: 140px; }
+        .main .path-banner .banner-list li p {
+          font-size: 20px;
+          font-family: '微软雅黑';
+          margin-left: 43px;
+          margin-top: 10px; }
+        .main .path-banner .banner-list li div {
+          width: 130px;
+          height: 30px;
+          border: 1px solid red;
+          border-radius: 10px;
+          text-align: center;
+          line-height: 30px;
+          font-size: 15px;
+          font-family: '微软雅黑';
+          margin-left: 5px; }
+      .main .path-banner .banner-list li:nth-child(3) {
+        margin-right: 0px; }
+
+.content {
+  width: 100%;
+  float: left; }
+  .content .content-bg {
+    width: 1849px;
+    height: 1000px;
+    background-color: #cccccc;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=video.css.map */
