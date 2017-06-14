@@ -153,11 +153,54 @@ body {
 
 .content {
   width: 100%;
-  float: left; }
+  float: left;
+  margin-top: 90px; }
   .content .content-bg {
     width: 1849px;
-    height: 1000px;
+    height: 1200px;
     background-color: #cccccc;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 50px 0px; }
+    .content .content-bg .content-list {
+      width: 1100px;
+      height: 900px;
+      border: 1px solid #cccccc;
+      margin: 0px auto; }
+      .content .content-bg .content-list .conlist-header ul {
+        list-style: none; }
+        .content .content-bg .content-list .conlist-header ul li {
+          float: left;
+          font-size: 20px;
+          font-family: '微软雅黑';
+          color: rgba(0, 0, 0, 0.5);
+          margin-left: 40px;
+          margin-top: 5px; }
+        .content .content-bg .content-list .conlist-header ul li:nth-child(1) {
+          width: 100px;
+          height: 30px;
+          background-color: red;
+          color: #ffffff;
+          text-align: center;
+          line-height: 30px; }
+      .content .content-bg .content-list .content-types {
+        width: 1000px;
+        height: 250px;
+        margin: 75px auto; }
+        .content .content-bg .content-list .content-types .contype-index {
+          width: 200px;
+          height: 250px;
+          background-color: blue;
+          float: left;
+          margin-right: 66px;
+          overflow: hidden; }
+          .content .content-bg .content-list .content-types .contype-index .choose {
+            width: 200px;
+            height: 50px;
+            background-color: #000; }
+          .content .content-bg .content-list .content-types .contype-index img {
+            width: 200px;
+            height: 200px; }
+        .content .content-bg .content-list .content-types .contype-index:last-child {
+          margin-right: 0; }
 
 /*# sourceMappingURL=video.css.map */
